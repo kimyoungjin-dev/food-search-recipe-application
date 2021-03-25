@@ -19,4 +19,5 @@ const getData = async (path) => {
 
 export const foodApi = {
   search: (term) => getData(`filter.php?i=${term}`),
+  detail: (id) => getData(`lookup.php?i=${id}`),
 };
