@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/food-search-recipe-application/static/js/main.f805f16f.chunk.js",
+    "main.js.map": "/food-search-recipe-application/static/js/main.f805f16f.chunk.js.map",
+    "runtime-main.js": "/food-search-recipe-application/static/js/runtime-main.d7c216d5.js",
+    "runtime-main.js.map": "/food-search-recipe-application/static/js/runtime-main.d7c216d5.js.map",
+    "static/js/2.89ccc7a8.chunk.js": "/food-search-recipe-application/static/js/2.89ccc7a8.chunk.js",
+    "static/js/2.89ccc7a8.chunk.js.map": "/food-search-recipe-application/static/js/2.89ccc7a8.chunk.js.map",
+    "index.html": "/food-search-recipe-application/index.html",
+    "static/js/2.89ccc7a8.chunk.js.LICENSE.txt": "/food-search-recipe-application/static/js/2.89ccc7a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7c216d5.js",
+    "static/js/2.89ccc7a8.chunk.js",
+    "static/js/main.f805f16f.chunk.js"
+  ]
+}
