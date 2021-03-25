@@ -32,6 +32,11 @@ const CategoryButton = styled.button`
   margin-bottom: 25px;
 `;
 
+const Instructions = styled.div`
+  padding: 0px 40px;
+  margin: 20px 0px;
+`;
+
 const PhotoImage = styled.img`
   background-image: url(${(props) => props.bgUrl});
   background-position: center center;
@@ -40,7 +45,7 @@ const PhotoImage = styled.img`
   width: 100px;
   border-radius: 50%;
 `;
-//components
+
 const Detail = ({
   match: {
     params: { id },
@@ -88,12 +93,14 @@ const Detail = ({
                 <span>Category : </span>
                 <span>{food.strCategory}</span>
               </CategoryButton>
+
               <div>
                 <span style={{ display: "block" }}>Instructions:</span>
               </div>
-              <div style={{ paddingRight: 40, paddingLeft: 40 }}>
+
+              <Instructions>
                 <span>{food.strInstructions}</span>
-              </div>
+              </Instructions>
 
               <div>
                 <a
@@ -101,7 +108,7 @@ const Detail = ({
                   target={"_blank"}
                   style={{ color: "white" }}
                 >
-                  <div>
+                  <div style={{ marginBottom: 10 }}>
                     <PhotoImage bgUrl={food.strMealThumb} />
                   </div>
 
